@@ -1,0 +1,79 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size:64px;
+  font-weight:normal;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size:20px;
+  font-weight:normal;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size:40px;
+  font-weight:normal;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size:16px;
+  font-weight:normal;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 60px;
+}
+
+.nav-item {
+  background-color: #FFFCF7 (255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.logo {
+ background-color: #FFFCF7(255, 255, 255, 0.8);
+  margin-top: -20px;
+  padding-bottom: 20 px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.vl {
+  margin-top: -70px;
+  padding:0 px;
+  height: 150px;
+  border-left: 1px solid black;}
+
+.hr-nav {
+  margin-top: -1px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;
+}
+
+.header-container ul {
+  display: inline-block;
+  list-style-type: none;
+}
+.vl-2 {
+  margin-top: -19px;
+  height: 180px;
+  border-left: 1px solid black;}
+.hr-projects {
+  margin-top: -20px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;
+}
