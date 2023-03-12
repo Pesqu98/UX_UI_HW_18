@@ -29,6 +29,12 @@ p {
   font-weight:normal;
 }
 
+p2 {
+  font-family: 'Poppins', sans-serif;
+  font-size:14px;
+  font-weight:normal;
+}
+
 .nav-container {
   display: grid;
   grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
@@ -332,6 +338,60 @@ p {
   grid-row-end: span 3;}
 
 .vl-9 {
-margin-top: -10px;
+margin-top: 0px;
 height: 210px;
 border-left: 1px solid black;}
+
+.about-container {
+  display: grid;
+  grid-template-columns:1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+}
+
+.italy {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.meow-wolf {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  margin-left: -100px;
+}
+
+.vl-0 {
+  margin-top: 0px;
+  border-left: 1px solid black;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+#borderbottoma {
+  border-bottom: 1px solid black; 
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+
+.vl-11 {
+  margin-top: 0px;
+  border-left: 1px solid black;
+  grid-column-start: 7;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.about-title {
+  grid-column-start: 5;
+  grid-row-start: 2;
+  margin-top: -50px;
+  margin-left: -200px;
+}
+
+.about-exp {
+  grid-column-start: 5;
+  grid-row-start: 3;
+  margin-top: -185px;
+  margin-left: -200px;
+}
