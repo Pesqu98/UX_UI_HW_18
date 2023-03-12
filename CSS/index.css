@@ -14,6 +14,12 @@ h3 {
   font-weight:normal;
 }
 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size:32px;
+  font-weight:normal;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   font-size:16px;
@@ -25,6 +31,7 @@ p {
   grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
   background-color: #FFFCF7;
   padding-top: 60px;
+  border-bottom: 1px solid black;
 }
 
 .nav-item {
@@ -48,10 +55,6 @@ p {
   height: 150px;
   border-left: 1px solid black;}
 
-.hr-nav {
-  margin-top: -1px;
-}
-
 .header-container {
   display: grid;
   grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
@@ -63,13 +66,17 @@ p {
   display: inline-block;
   list-style-type: none;
 }
-.vl-2 {
-  margin-top: -19px;
-  height: 180px;
-  border-left: 1px solid black;}
-.hr-projects {
-  margin-top: -20px;
+
+#borderbottom {
+  border-bottom: 1px solid black; 
+  grid-column-start: 2;
+  grid-column-end: 7;
 }
+
+.vl-2 {
+  margin-top: -10px;
+  height: 210px;
+  border-left: 1px solid black;}
 
 .header-container {
   display: grid;
@@ -77,3 +84,251 @@ p {
   background-color: #FFFCF7;
   padding-top: 10px;
 }
+
+.nubudget-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-3 {
+  margin-top: -10px;
+  height: 460px;
+  border-left: 1px solid black;
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;}
+
+.research-link {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.nubudgetlogo{
+  grid-column-start: 4;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.nubudget-title {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:-30px;
+  grid-row-end: span 3;
+}
+
+.creation-yearnb {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  grid-row-end: span 3;
+  margin-top:50px;
+}
+
+.view-projectnb {
+  grid-column-start: 6;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top:50px;
+}
+
+.winebuds-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;
+}
+
+.vl-4 {
+  margin-top: -10px;
+  height: 460px;
+  border-left: 1px solid black;
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;}
+
+.research-link {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.winebudslogo{
+  grid-column-start: 4;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.winebuds-title {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:-30px;
+  grid-row-end: span 3;
+}
+
+.creation-yearwb {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  grid-row-end: span 3;
+  margin-top:50px;
+}
+
+.view-projectwb {
+  grid-column-start: 6;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top:50px;
+}
+
+.doe-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-5 {
+  margin-top: -10px;
+  height: 460px;
+  border-left: 1px solid black;
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;}
+
+.research-link {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.doelogo{
+  grid-column-start: 4;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.doe-title {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:-30px;
+  grid-row-end: span 3;
+}
+
+.creation-yeardoe {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  grid-row-end: span 3;
+  margin-top:50px;
+}
+
+.view-projectdoe {
+  grid-column-start: 6;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top:50px;
+}
+
+.woodlawn-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-6 {
+  margin-top: -10px;
+  height: 460px;
+  border-left: 1px solid black;
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;}
+
+.research-link {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.woodlawnlogo{
+  grid-column-start: 4;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.woodlawn-title {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:-30px;
+  grid-row-end: span 3;
+}
+
+.creation-yearwl {
+  grid-column-start: 3;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  grid-row-end: span 3;
+  margin-top:50px;
+}
+
+.view-projectwl {
+  grid-column-start: 6;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top:50px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 60px;
+}
+
+.vl-7 {
+  margin-top: -10px;
+  height: 460px;
+  border-left: 1px solid black;
+  grid-column-start: 7;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;}
+
+.vl-8 {
+  margin-top: -70px;
+  padding:0 px;
+  height: 150px;
+  border-left: 1px solid black;
+  grid-column-start: 7;
+  grid-column-end: span col4-start;
+  grid-row-start: 1;
+  grid-row-end: span 3;}
+
+.vl-9 {
+margin-top: -10px;
+height: 210px;
+border-left: 1px solid black;}
