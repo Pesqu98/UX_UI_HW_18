@@ -95,8 +95,9 @@ p2 {
 
 .vl-2 {
   margin-top: -10px;
-  height: 210px;
-  border-left: 1px solid black;}
+  height: 220px;
+  border-left: 1px solid black;
+}
 
 .header-container {
   display: grid;
@@ -104,7 +105,15 @@ p2 {
   background-color: #FFFCF7;
   padding-top: 10px;
 }
+.projects-header {
+  grid-column-start:3;
+  margin-left: -36px;
+}
 
+.year-header {
+  grid-column-start:6;
+  grid-row-start: 1;
+}
 .nubudget-container {
   display: grid;
   grid-template-columns: 1fr 100px 1fr 1fr 1fr 1fr 1fr;
@@ -349,8 +358,8 @@ p2 {
   grid-row-end: span 3;}
 
 .vl-9 {
-margin-top: 0px;
-height: 210px;
+margin-top: -10px;
+height: 220px;
 border-left: 1px solid black;}
 
 .about-container {
@@ -588,18 +597,17 @@ border-left: 1px solid black;}
 
 
 @media screen and (max-width: 600px) {
-  nav-container {
+  .nav-container {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 70px;
       background-color: #FFFCF7;
       padding-top: 60px;
-      grid-template-areas:
-      "logo"
+      border-bottom: none;
     }
   .logo {
       background-color: #FFFCF7(255, 255, 255, 0.8);
-       grid-column-start: 6;
+       grid-column-start: 4;
        grid-row-start:1;
      }
   .title2 {
@@ -612,7 +620,7 @@ border-left: 1px solid black;}
   .vl-8 {
     display: none;
   }
-  about-container {
+  .about-container {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 300 px 300px 500px;
@@ -826,6 +834,181 @@ border-left: 1px solid black;}
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #FFFCF7;
   padding-top: 60px;
+}
+
+#borderbottom {
+  display:none;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #FFFCF7;
+  padding-top: 10px;
+}
+
+.projects-header {
+  grid-column-start:2;
+  grid-column-end: span 5;
+  grid-row-start: 1;
+}
+
+.year-header {
+  grid-column-start:2;
+  grid-column-end: span 5;
+  grid-row-start: 2;
+}
+
+.nubudget-container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 20px 60px 350px;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-3 {
+  display:none;}
+
+.research-link {
+  grid-column-start:2;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.nubudgetlogo{
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.nubudget-title {
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:0px;
+  grid-row-end: span 3;
+}
+
+.creation-yearnb {
+  display:none;
+}
+.view-projectnb {
+  display: none;
+}
+.winebuds-container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 20px 60px 350px;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-4 {
+  display:none;}
+
+.winebudslogo{
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.winebuds-title {
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:0px;
+  grid-row-end: span 3;
+}
+
+.creation-yearwb {
+  display:none;
+}
+
+.view-projectwb {
+  display: none;
+}
+
+.doe-container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 20px 60px 350px;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-5 {
+  display:none;}
+
+.vl-2 {
+    display:none;}
+
+.doelogo{
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.doe-title {
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:0px;
+  grid-row-end: span 3;
+}
+
+.creation-yeardoe {
+  display:none;
+}
+
+.view-projectdoe {
+  display: none;
+}
+
+.woodlawn-container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 20px 60px 350px;
+  background-color: #FFFCF7;
+  padding-top: 10px;}
+
+.vl-6 {
+  display:none;}
+
+.vl-7 {
+    display:none;}
+.vl-9 {
+      display:none;}
+
+.woodlawnlogo{
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 3;
+  margin-top: 42px;
+  grid-row-end: span 3;
+}
+
+.woodlawn-title {
+  grid-column-start: 2;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  margin-top:0px;
+  grid-row-end: span 3;
+}
+
+.creation-yearwl {
+  display:none;
+}
+
+.view-projectwl {
+  display: none;
+}
+
+.header-container ul {
+  display: none;
 }
 
 }
