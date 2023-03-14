@@ -1026,41 +1026,41 @@ display: grid;
   display: none;
 }
 
-.woodlawn-container {
-  /* display: grid;
+/* .woodlawn-container {
+   display: grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 20px 60px 350px;
   background-color: #FFFCF7;
   padding-top: 10px;
-align-items: center; */
+align-items: center; 
 display: grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 100px 300px 100px;
   background-color: #FFFCF7;
   padding-top: 10px;
   align-items: center;
-}
+} */
 
-.vl-6 {
+/* .vl-6 {
   display:none;}
 
 .vl-7 {
     display:none;}
 .vl-9 {
-      display:none;}
+      display:none;} */
 
-.woodlawnlogo{
-  /* grid-column-start: 2;
+/* .woodlawnlogo{
+   grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 3;
   margin-top: 42px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3; 
   grid-column-start: 1;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
+ */
 /* .woodlawn-title {
   /* grid-column-start: 2;
   grid-column-end: span col4-start;
