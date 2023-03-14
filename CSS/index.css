@@ -62,7 +62,7 @@ p2 {
 }
 
 .logo {
- background-color: #FFFCF7(255, 255, 255, 0.8);
+float: right;
   margin-top: -20px;
   padding-bottom: 20 px;
   font-size: 30px;
@@ -364,12 +364,13 @@ border-left: 1px solid black;}
 
 .about-container {
   display: grid;
-  grid-template-columns:1fr 100px 400px 300px 200px 1fr 1fr;
+  grid-template-columns:1fr 100px 400px 300px 257px 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   background-color: #FFFCF7;
 }
 
 .italy {
+  float: right;
   grid-column-start: 3;
   grid-column-end: span 4;
   grid-row-start: 2;
@@ -398,17 +399,19 @@ border-left: 1px solid black;}
 }
 
 .about-title {
+  float:right;
   grid-column-start: 4;
   grid-column-end: span 5;
   grid-row-start: 2;
-  margin-top: -50px;
+  margin-top: -65px;
   margin-left: 0px;
 }
 
 .about-exp {
   grid-column-start: 4;
-  grid-row-start: 3;
-  margin-top: -185px;
+  grid-column-end: span 5;
+  grid-row-start: 2;
+  margin-top: 60px;
   margin-left: 0px;
 }
 
@@ -427,10 +430,12 @@ border-left: 1px solid black;}
 }
 
 .skills-title {
+  float:right;
   grid-column-start: 3;
   grid-row-start: 1;
   margin-top: 0px;
   margin-left: 0px;
+
 }
 .tools-text {
   grid-column-start: 3;
@@ -597,20 +602,25 @@ border-left: 1px solid black;}
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
   .nav-container {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 70px;
       background-color: #FFFCF7;
       padding-top: 60px;
-      border-bottom: none;
+      border-bottom: 1px solid black;
+      align-items: center;
     }
+
+  
   .logo {
-      background-color: #FFFCF7(255, 255, 255, 0.8);
-       grid-column-start: 4;
-       grid-row-start:1;
+    grid-column-start: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
      }
+  
   .title2 {
     display: none;
   }
@@ -623,29 +633,30 @@ border-left: 1px solid black;}
   }
   .about-container {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 300 px 300px 500px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 250px 250px;
     background-color: #FFFCF7;
+    align-items: center;
   }
   .about-title {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 1;
-    margin-top: 0px;
-    margin-left: 40px;
+    text-align:center !important;
   }
 
   .about-exp {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: span 6;
-  grid-row-start: 4;
-  margin-left: 40px;
+  grid-row-start: 3;
+  margin-top: 0px;
+  text-align:center !important;
   }
 
   .italy {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    margin-top: -40px;
-    margin-left: 40px;
+    grid-column-start: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
   }
   .vl-0 {
   display:none;}
@@ -662,13 +673,13 @@ border-left: 1px solid black;}
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 150px 250px 250px 250px 500px;
   background-color: #FFFCF7;
+  align-items: center;
 }
 
 .skills-title {
   grid-column-start: 2;
-  grid-row-start: 1;
-  margin-top: 0px;
-  margin-left: 90px;
+    grid-row-start: 1;
+    text-align:center !important;
 }
 
 #borderbottomb {
@@ -679,69 +690,69 @@ border-left: 1px solid black;}
   display:none;}
 
 .imguser {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-row-start: 2;
   margin-top: 0px;
   margin-left: 90px;
 }
 
 .user-centered-design {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 2;
-  margin-top: -20px;
+  margin-top: -150px;
   margin-left: 20px;
 }
 .user-exp {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 2;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 20px;
 }
 
 .imgwire {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-row-start: 3;
   margin-top: 0px;
   margin-left: 90px;
 }
 
 .wireframing {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 3;
-  margin-top: -20px;
+  margin-top: -200px;
   margin-left: 20px;
 }
 
 .wire-exp {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 3;
-  margin-top: 60px;
+  margin-top: -40px;
   margin-left: 20px;
 }
 
 .imgstory {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-row-start: 4;
   margin-top: 0px;
   margin-left: 90px;
 }
 
 .storyboarding {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 4;
-  margin-top: -20px;
+  margin-top: -200px;
   margin-left: 20px;
 }
 
 .story-exp {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 4;
-  margin-top: 60px;
+  margin-top: -10px;
   margin-left: 20px;
 }
 
 .tools-text {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: span  4;
   grid-row-start: 5;
   margin-top: 20px;
@@ -753,13 +764,17 @@ border-left: 1px solid black;}
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 150px 300px 10px 300px 10px 300px 10px 300px 10px 300px;
   background-color: #FFFCF7;
+  align-items: center;
 }
 
 .logo-design{
-  grid-column-start: 2;
+  /* grid-column-start: 2;
   grid-row-start: 1;
   grid-column-end:span 6;
-  margin-left: 90px;
+  margin-left: 90px; */
+  grid-column-start: 1;
+    grid-row-start: 1;
+    text-align:center !important;
 }
 
 .group1 {
@@ -815,11 +830,12 @@ border-left: 1px solid black;}
 }
 
 .logo-exp{
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: span 4;
     grid-row-start: 10;
-    margin-left: 90px;
+    margin-left: 0px;
     margin-top: 0px;
+    text-align:center !important;
 }
 
 .vl-13 {
