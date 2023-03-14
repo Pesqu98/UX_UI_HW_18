@@ -364,7 +364,7 @@ border-left: 1px solid black;}
 
 .about-container {
   display: grid;
-  grid-template-columns:1fr 100px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 100px 400px 300px 200px 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   background-color: #FFFCF7;
 }
@@ -398,17 +398,18 @@ border-left: 1px solid black;}
 }
 
 .about-title {
-  grid-column-start: 5;
+  grid-column-start: 4;
+  grid-column-end: span 5;
   grid-row-start: 2;
   margin-top: -50px;
-  margin-left: -200px;
+  margin-left: 0px;
 }
 
 .about-exp {
-  grid-column-start: 5;
+  grid-column-start: 4;
   grid-row-start: 3;
   margin-top: -185px;
-  margin-left: -200px;
+  margin-left: 0px;
 }
 
 .skills-container {
