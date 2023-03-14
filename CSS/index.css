@@ -1061,7 +1061,7 @@ display: grid;
   margin-right: auto;
 }
 
-.woodlawn-title {
+/* .woodlawn-title {
   /* grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 2;
@@ -1073,7 +1073,7 @@ display: grid;
     grid-row-start: 1;
     text-align:center !important;
     margin-top: -450px;
-}
+} */
 
 .creation-yearwl {
   display:none;
