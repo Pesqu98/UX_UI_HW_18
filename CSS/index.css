@@ -857,7 +857,7 @@ border-left: 1px solid black;}
   display:none;
 }
 
-.header-container {
+/* .header-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 200px, 100px;
@@ -891,14 +891,14 @@ border-left: 1px solid black;}
   display:none;}
 
 .research-link {
-  display:none;}
+  display:none;} */
 
-.nubudgetlogo{
-  /* grid-column-start: 2;
+/* .nubudgetlogo{
+  grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 3;
   margin-top: 42px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3; 
   grid-column-start: 1;
   grid-row-start: 2;
   grid-row-end: span 3;
@@ -906,14 +906,14 @@ border-left: 1px solid black;}
   margin-left: auto;
   margin-right: auto;
    }
-}
+} */
 
-.nubudget-title {
-  /* grid-column-start: 2;
+/* .nubudget-title {
+   grid-column-start: 2;
   grid-column-end: span 3;
     grid-row-start: 1;
     text-align:center !important;
-    margin-top: -300px; */
+    margin-top: -300px; 
 }
 
 .creation-yearnb {
@@ -921,15 +921,15 @@ border-left: 1px solid black;}
 }
 .view-projectnb {
   display: none;
-}
-.winebuds-container {
-  /* display: grid;
+} */
+/* .winebuds-container {
+   display: grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 20px 60px 350px;
   background-color: #FFFCF7;
   padding-top: 10px;
-align-items: center;} */
-/* display: grid;
+align-items: center;} 
+display: grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 100px 300px 100px;
   background-color: #FFFCF7;
@@ -937,80 +937,80 @@ align-items: center;} */
   align-items: center;}
 
 .vl-4 {
-  display:none;} */
+  display:none;}  */
 
-.winebudslogo{
-  /* grid-column-start: 2;
+/* .winebudslogo{
+   grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 3;
   margin-top: 42px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3;
   grid-column-start: 1;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.winebuds-title {
-  /* grid-column-start: 2;
+/* .winebuds-title {
+  grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 2;
   margin-top:0px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3; 
   grid-column-start: 2;
   grid-column-end: span 3;
     grid-row-start: 1;
     text-align:center !important;
     margin-top: -400px;
-}
+} */
 
-.creation-yearwb {
+/* .creation-yearwb {
   display:none;
 }
 
 .view-projectwb {
   display: none;
-}
+} */
 
-.doe-container {
-  /* display: grid;
+/* .doe-container {
+  display: grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 20px 60px 350px;
   background-color: #FFFCF7;
   padding-top: 10px;
-align-items: center; */
+align-items: center;
 display: grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows: 100px 300px 100px;
   background-color: #FFFCF7;
   padding-top: 10px;
   align-items: center;
-}
+} */
 
-.vl-5 {
+/* .vl-5 {
   display:none;}
 
 .vl-2 {
-    display:none;}
+    display:none;} */
 
-.doelogo{
-  /* grid-column-start: 2;
+/* .doelogo{
+   grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 3;
   margin-top: 42px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3;
   grid-column-start: 1;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.doe-title {
-  /* grid-column-start: 2;
+/* .doe-title {
+  grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 2;
   margin-top:0px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3;
   grid-column-start: 2;
   grid-column-end: span 3;
     grid-row-start: 1;
@@ -1024,7 +1024,7 @@ display: grid;
 
 .view-projectdoe {
   display: none;
-}
+} */
 
 /* .woodlawn-container {
    display: grid;
@@ -1061,19 +1061,19 @@ display: grid;
   margin-right: auto;
 }
  */
-/* .woodlawn-title {
-  /* grid-column-start: 2;
+ /* .woodlawn-title {
+   grid-column-start: 2;
   grid-column-end: span col4-start;
   grid-row-start: 2;
   margin-top:0px;
-  grid-row-end: span 3; */
+  grid-row-end: span 3;
 
   grid-column-start: 2;
   grid-column-end: span 3;
     grid-row-start: 1;
     text-align:center !important;
     margin-top: -450px;
-} */
+}  */
 
 .creation-yearwl {
   display:none;
