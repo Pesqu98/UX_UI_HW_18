@@ -1,0 +1,310 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.interviews-surveys {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 0;
+  min-height: 41px;
+  width: 105px;
+}
+
+.ideation-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.feature-prioritizati {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 23px;
+  width: 200px;
+}
+
+.timeline {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+  transform: rotate(-90.00deg);
+  width: 175px;
+}
+
+.prototyping {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.sketching-digital-wireframing {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 0.17px;
+  min-height: 41px;
+  width: 175px;
+}
+
+.mid-fidelity-prototype-final-thoughts {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 0.17px;
+  min-height: 41px;
+  width: 172px;
+}
+
+.testing {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.user-testing-iterations {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 23px;
+  width: 105px;
+}
+
+.menu {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.linkedin-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 80px;
+}
+
+.projects {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.25px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 12.52px;
+  margin-left: 65px;
+  padding: 12.52px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.about {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.25px;
+  position: relative;
+  width: fit-content;
+}
+
+.architecture-ux-designer {
+  left: 1168px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 69px;
+}
+
+.frame-7 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 12.52px;
+  left: 596px;
+  padding: 12.52px;
+  position: absolute;
+  top: 47px;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.frame-8 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 12.52px;
+  left: 782px;
+  padding: 12.52px;
+  position: absolute;
+  top: 47px;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.link {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  min-width: 88px;
+  transition: all 0.2s ease;
+}
+
+.linkedin-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 80px;
+}
+
+.a-snapshot-into-the-3-week-project {
+  left: 232px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 842px;
+  width: 220px;
+}
+
+.group-2-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 908px;
+  min-height: 65px;
+  position: absolute;
+  top: 836px;
+  width: 112px;
+}
+
+.user-research-1 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.interviews-surveys-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 0;
+  min-height: 41px;
+  width: 105px;
+}
+
+.timeline-1 {
+  left: 744px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 903px;
+  transform: rotate(-90.00deg);
+  width: 204px;
+}
+
+.line-3-1 {
+  height: 1px;
+  left: 209px;
+  position: absolute;
+  top: 789px;
+  width: 1038px;
+}
+
+.biggest-barriers-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 23px;
+  width: 132px;
+}
+
+.overwhelming-amount-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 62px;
+  width: 263px;
+}
+
+.mid-fidelity-prototype-final-thoughts-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 23px;
+  width: 168px;
+}
+
+.sketching-digital-wireframing-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 41px;
+  width: 168px;
+}
+
+.testing-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 108px;
+}
+
+.user-testing-iterations-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 23px;
+  width: 105px;
+}

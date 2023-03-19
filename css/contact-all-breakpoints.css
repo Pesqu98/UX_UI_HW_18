@@ -1,0 +1,443 @@
+/* screen - contact-2 */
+
+.contact-2 {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  border: 1px none;
+  display: flex;
+  min-width: 1440px;
+}
+
+.contact-2 .overlap-group1 {
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.contact-2 .nav {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  left: 0;
+  min-height: 1024px;
+  padding: 28px 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.contact-2 .flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 74px;
+  margin-left: 84px;
+  min-width: 799px;
+}
+
+.contact-2 .group-2 {
+  align-items: flex-start;
+  align-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  justify-content: center;
+  min-width: 42px;
+  transition: all 0.2s ease;
+}
+
+.contact-2 .group-2:hover {
+  transform: scale(1.1);
+}
+
+.contact-2 .ellipse-container {
+  background-image: url(../img/union-2.svg);
+  background-size: 100% 100%;
+  height: 64px;
+  margin-top: -0.63px;
+  position: relative;
+  width: 43px;
+}
+
+.contact-2 .ellipse-2 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 11.36px;
+  height: 23px;
+  left: 5px;
+  position: absolute;
+  top: 14px;
+  width: 23px;
+}
+
+.contact-2 .ellipse-3 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 11.36px;
+  height: 23px;
+  left: 15px;
+  position: absolute;
+  top: 27px;
+  width: 23px;
+}
+
+.contact-2 .frame-5 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 12.52px;
+  margin-left: 125px;
+  padding: 12.52px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.contact-2 .frame-5:hover {
+  transform: scale(1.1);
+}
+
+.contact-2 .frame:hover {
+  transform: scale(1.1);
+}
+
+.contact-2 .place {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.25px;
+  position: relative;
+  width: fit-content;
+}
+
+.contact-2 .resume {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.25px;
+  position: relative;
+  width: fit-content;
+}
+
+.contact-2 .line-6 {
+  height: 1px;
+  width: 1440px;
+}
+
+.contact-2 .place-1 {
+  left: 313px;
+  letter-spacing: 0;
+  line-height: 79px;
+  position: absolute;
+  top: 291px;
+  white-space: nowrap;
+  width: 375px;
+}
+
+.contact-2 .number {
+  left: 313px;
+  letter-spacing: 0;
+  line-height: 79px;
+  position: absolute;
+  top: 217px;
+  white-space: nowrap;
+  width: 155px;
+}
+
+.contact-2 .rectangle-24 {
+  height: 238px;
+  left: 313px;
+  position: absolute;
+  top: 444px;
+  width: 386px;
+}
+
+.contact-2 .address {
+  left: 720px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 466px;
+  width: 406px;
+}
+
+.contact-2 .name {
+  left: 720px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 442px;
+}
+
+.contact-2 .the-fears-we-dont-f {
+  left: 720px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 262px;
+}
+
+.contact-2 .linkedin {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  left: 569px;
+  min-width: 80px;
+  position: absolute;
+  top: 940px;
+  transition: all 0.2s ease;
+}
+
+.contact-2 .linkedin:hover {
+  transform: scale(1.1);
+}
+
+.contact-2 .contact {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  left: 669px;
+  min-width: 88px;
+  position: absolute;
+  top: 940px;
+  transition: all 0.2s ease;
+}
+
+.contact-2 .contact:hover {
+  transform: scale(1.1);
+}
+
+.contact-2 .place-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 88px;
+}
+
+.contact-2 .resume-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  left: 777px;
+  min-width: 88px;
+  position: absolute;
+  top: 940px;
+  transition: all 0.2s ease;
+}
+
+.contact-2 .resume-1:hover {
+  transform: scale(1.1);
+}
+
+.contact-2 .resume-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 88px;
+}
+/* screen - contact-all-breakpoints */
+
+.contact-all-breakpoints {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  border: 1px none;
+  display: flex;
+  height: 844px;
+  min-width: 390px;
+}
+
+.contact-all-breakpoints .overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  display: flex;
+  flex-direction: column;
+  min-height: 1036px;
+  padding: 27px 10px;
+  width: 390px;
+}
+
+.contact-all-breakpoints .flex-row-1 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 62px;
+  margin-top: 36px;
+  min-width: 366px;
+}
+
+.contact-all-breakpoints .paola-esquivel {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 0;
+  min-height: 53px;
+  width: 94px;
+}
+
+.contact-all-breakpoints .group-3 {
+  align-items: flex-end;
+  background-image: url(../img/union.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  margin-left: 69px;
+  min-width: 35px;
+  padding: 11.3px 3.8px;
+}
+
+.contact-all-breakpoints .ellipse-container-1 {
+  height: 29px;
+  position: relative;
+  width: 27px;
+}
+
+.contact-all-breakpoints .ellipse-2-1 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 9.54px;
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 19px;
+}
+
+.contact-all-breakpoints .ellipse-3-1 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 9.54px;
+  height: 19px;
+  left: 8px;
+  position: absolute;
+  top: 10px;
+  width: 19px;
+}
+
+.contact-all-breakpoints .frame-6 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 10px;
+  margin-left: 92px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.contact-all-breakpoints .line-1 {
+  align-self: center;
+  margin-left: 1.0px;
+  margin-top: 44px;
+}
+
+.contact-all-breakpoints .x2023-contact {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 5px;
+  margin-top: 23px;
+  min-height: 138px;
+  width: 243px;
+}
+
+.contact-all-breakpoints .the-fears-we-dont-f-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 11px;
+  margin-top: 35px;
+  min-height: 120px;
+  width: 353px;
+}
+
+.contact-all-breakpoints .line-2 {
+  align-self: flex-end;
+  margin-right: 2.0px;
+  margin-top: 1px;
+}
+
+.contact-all-breakpoints .rectangle-1 {
+  height: 235px;
+  margin-left: 1px;
+  margin-top: 24px;
+  width: 362px;
+}
+
+.contact-all-breakpoints .name-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 24px;
+  min-height: 16px;
+  width: 276px;
+}
+
+.contact-all-breakpoints .address-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 23px;
+  min-height: 89px;
+  width: 214px;
+}
+
+.contact-all-breakpoints .flex-row-2 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 20px;
+  margin-left: 6.0px;
+  margin-top: 78px;
+  min-width: 296px;
+}
+
+.contact-all-breakpoints .linkedin-2 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  min-width: 80px;
+  transition: all 0.2s ease;
+}
+
+.contact-all-breakpoints .linkedin-2:hover {
+  transform: scale(1.1);
+}
+
+.contact-all-breakpoints .link:hover {
+  transform: scale(1.1);
+}
+
+.contact-all-breakpoints .place-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 88px;
+}
+
+.contact-all-breakpoints .resume-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 88px;
+}
+
+.contact-all-breakpoints .line {
+  height: 1px;
+  object-fit: cover;
+  width: 361px;
+}
+@media screen and (max-width: 1439px) {
+  .screen.contact-2 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1440px) {
+  .screen.contact-all-breakpoints { 
+    display: none;
+   }
+}
