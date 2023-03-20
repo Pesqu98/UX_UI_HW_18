@@ -96,3 +96,5 @@ function ShowOnScroll() {
     var instShowOnScroll = new ShowOnScroll();
     instShowOnScroll.init();
   }, 250);
+
+//   not running animation on github pages?
