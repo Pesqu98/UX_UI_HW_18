@@ -1,5 +1,6 @@
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
 
 .screen a {
   display: contents;
@@ -136,18 +137,6 @@
   width: fit-content;
 }
 
-.frame {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  gap: 12.52px;
-  margin-left: 65px;
-  padding: 12.52px;
-  position: relative;
-  transition: all 0.2s ease;
-  width: fit-content;
-}
-
 .about {
   letter-spacing: 0;
   line-height: normal;
@@ -164,32 +153,6 @@
   top: 69px;
 }
 
-.frame-7 {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  gap: 12.52px;
-  left: 596px;
-  padding: 12.52px;
-  position: absolute;
-  top: 47px;
-  transition: all 0.2s ease;
-  width: fit-content;
-}
-
-.frame-8 {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  gap: 12.52px;
-  left: 782px;
-  padding: 12.52px;
-  position: absolute;
-  top: 47px;
-  transition: all 0.2s ease;
-  width: fit-content;
-}
-
 .link {
   align-items: flex-start;
   cursor: pointer;
@@ -197,6 +160,18 @@
   height: 32px;
   min-width: 88px;
   transition: all 0.2s ease;
+}
+
+.frame {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 12.52px;
+  margin-left: 65px;
+  padding: 12.52px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
 }
 
 .linkedin-3 {
