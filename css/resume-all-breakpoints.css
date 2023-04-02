@@ -1,0 +1,379 @@
+/* screen - resume-2 */
+
+.resume-2 {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  border: 1px none;
+  display: flex;
+  height: 1024px;
+  min-width: 1440px;
+}
+
+.resume-2 .overlap-group1 {
+  align-items: center;
+  background-color: var(--soapstone);
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+  min-height: 1558px;
+  width: 1440px;
+}
+
+.resume-2 .overlap-group2 {
+  height: 1382px;
+  position: relative;
+  width: 1440px;
+}
+
+.resume-2 .nav {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  left: 0;
+  min-height: 1024px;
+  padding: 28.0px 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.resume-2 .flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 74px;
+  margin-left: 84.0px;
+  min-width: 799px;
+}
+
+.resume-2 .group-2 {
+  align-items: flex-end;
+  align-self: flex-start;
+  background-image: url(../img/union-2.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  justify-content: flex-end;
+  min-width: 42px;
+  padding: 13.7px 4.7px;
+  transition: all 0.2s ease;
+}
+
+.resume-2 .group-2:hover {
+  transform: scale(1.1);
+}
+
+.resume-2 .ellipse-container {
+  height: 35px;
+  position: relative;
+  width: 33px;
+}
+
+.resume-2 .ellipse-2 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 11.36px;
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.resume-2 .ellipse-3 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 11.36px;
+  height: 23px;
+  left: 10px;
+  position: absolute;
+  top: 13px;
+  width: 23px;
+}
+
+.resume-2 .frame-5 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  gap: 12.52px;
+  margin-left: 125px;
+  padding: 12.52px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.resume-2 .frame-5:hover {
+  transform: scale(1.1);
+}
+
+.resume-2 .frame:hover {
+  transform: scale(1.1);
+}
+
+.resume-2 .place {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.25px;
+  position: relative;
+  width: fit-content;
+}
+
+.resume-2 .resume {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.25px;
+  position: relative;
+  width: fit-content;
+}
+
+.resume-2 .line-6 {
+  height: 1px;
+  width: 1440px;
+}
+
+.resume-2 .title {
+  left: 249px;
+  letter-spacing: 0;
+  line-height: 79px;
+  position: absolute;
+  top: 139px;
+  white-space: nowrap;
+  width: 375px;
+}
+
+.resume-2 .number {
+  left: 1130px;
+  letter-spacing: 0;
+  line-height: 79px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.resume-2 .rectangle-29 {
+  height: 1148px;
+  left: 249px;
+  position: absolute;
+  top: 234px;
+  width: 769px;
+}
+
+.resume-2 .icon-download_arrow {
+  height: 24px;
+  left: 1071px;
+  position: absolute;
+  top: 234px;
+  width: 24px;
+}
+
+.resume-2 .download {
+  left: 1112px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 231px;
+  width: 124px;
+}
+
+.resume-2 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  min-width: 296px;
+}
+
+.resume-2 .linkedin {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  min-width: 80px;
+  transition: all 0.2s ease;
+}
+
+.resume-2 .linkedin:hover {
+  transform: scale(1.1);
+}
+
+.resume-2 .link:hover {
+  transform: scale(1.1);
+}
+
+.resume-2 .place-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 88px;
+}
+
+.resume-2 .resume-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 32px;
+  width: 88px;
+}
+/* screen - resume-all-breakpoints */
+
+.resume-all-breakpoints {
+  align-items: flex-start;
+  background-color: var(--soapstone);
+  border: 1px none;
+  display: flex;
+  height: 844px;
+  min-width: 390px;
+}
+
+.resume-all-breakpoints .overlap-group1-1 {
+  align-items: center;
+  background-color: var(--soapstone);
+  display: flex;
+  flex-direction: column;
+  min-height: 1082px;
+  padding: 63px 10px;
+  width: 390px;
+}
+
+.resume-all-breakpoints .flex-row-2 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 62px;
+  min-width: 366px;
+}
+
+.resume-all-breakpoints .paola-esquivel {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 0;
+  min-height: 53px;
+  width: 94px;
+}
+
+.resume-all-breakpoints .group-3 {
+  align-items: flex-end;
+  background-image: url(../img/union.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  margin-left: 69px;
+  min-width: 35px;
+  padding: 11.3px 3.8px;
+}
+
+.resume-all-breakpoints .ellipse-container-1 {
+  height: 29px;
+  position: relative;
+  width: 27px;
+}
+
+.resume-all-breakpoints .ellipse-2-1 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 9.54px;
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 19px;
+}
+
+.resume-all-breakpoints .ellipse-3-1 {
+  border: 1.25px solid;
+  border-color: var(--black);
+  border-radius: 9.54px;
+  height: 19px;
+  left: 8px;
+  position: absolute;
+  top: 10px;
+  width: 19px;
+}
+
+.resume-all-breakpoints .frame-6 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 10px;
+  margin-left: 92px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.resume-all-breakpoints .line-1 {
+  height: 1px;
+  margin-left: 1.0px;
+  margin-top: 44px;
+  object-fit: cover;
+  width: 361px;
+}
+
+.resume-all-breakpoints .flex-row-3 {
+  align-items: center;
+  display: flex;
+  gap: 67px;
+  height: 57px;
+  margin-left: 1.0px;
+  margin-top: 23px;
+  min-width: 361px;
+}
+
+.resume-all-breakpoints .title-1 {
+  letter-spacing: 0;
+  line-height: 79px;
+  min-height: 57px;
+  white-space: nowrap;
+  width: 243px;
+}
+
+.resume-all-breakpoints .number-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9.0px;
+  min-height: 24px;
+  width: 51px;
+}
+
+.resume-all-breakpoints .download-container {
+  align-items: center;
+  display: flex;
+  gap: 17px;
+  height: 32px;
+  margin-left: 1.0px;
+  margin-top: 46px;
+  min-width: 165px;
+}
+
+.resume-all-breakpoints .icon-download_arrow-1 {
+  height: 24px;
+  margin-bottom: 2.0px;
+  width: 24px;
+}
+
+.resume-all-breakpoints .download-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  width: 124px;
+}
+
+.resume-all-breakpoints .rectangle-1 {
+  height: 574px;
+  margin-top: 48px;
+  width: 362px;
+}
+@media screen and (max-width: 1439px) {
+  .screen.resume-2 { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1440px) {
+  .screen.resume-all-breakpoints { 
+    display: none;
+   }
+}
